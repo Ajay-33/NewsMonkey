@@ -6,9 +6,6 @@ import NavigationBar from './components/NavigationBar';
 import LoadingBar from 'react-top-loading-bar';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
-
-
 const App = () => {
   const pageSize = 9;
   const apiKey = process.env.REACT_APP_NEWS_API;
